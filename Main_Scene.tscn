@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bnjlwm2gkpvta"]
+
+[ext_resource type="Texture2D" uid="uid://dxr31266d8tkr" path="res://Pictures/sprite1_cat.png" id="1_jhvkd"]
+[ext_resource type="Texture2D" uid="uid://bf00gejvrcsj6" path="res://Pictures/sprite2_ghost.png" id="2_mb5le"]
+
+[node name="Main_Scene" type="Node2D"]
+
+[node name="Sprite1Cat" type="Sprite2D" parent="."]
+position = Vector2(1011, 201)
+scale = Vector2(4.09035, 4.09035)
+texture = ExtResource("1_jhvkd")
+
+[node name="Sprite2Ghost" type="Sprite2D" parent="."]
+position = Vector2(-1086, 262)
+scale = Vector2(6.945, 6.945)
+texture = ExtResource("2_mb5le")
